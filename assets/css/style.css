@@ -1,0 +1,299 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar{ 
+    background-color: black;
+
+}
+
+.navbar, 
+.navbar-brand {
+	color: #FFF;
+}
+
+.navbar, 
+.navbar-brand:hover {
+	color: #FFF;
+}
+
+
+.navbar,
+.navbar-nav,
+li,
+a, {
+	color:#FFF;
+}
+
+.navbar,
+.nav-item,
+.dropdown-item {
+	color: #000;
+}
+
+.navbar,
+.nav-item,
+.dropdown-item,
+.dropdown-item:hover
+{
+	color: #FFF;
+	background-color: black;
+
+}
+
+.navbar-toggler {
+	color: gray;
+} 
+
+/*.navbar-toggler-icon {
+color: white;
+}*/
+
+.nav-link {
+	color: white;
+}
+
+
+.jumbotron {
+	border-radius: 0;
+	text-align: center;
+	background-color: black;
+	color: #e5e5e5;
+	height: 100vh;
+
+}
+
+.profile {
+	border-radius: 50%;
+	background-color: white;
+}
+
+#fname {
+	color: 	#cc0055;
+}
+
+
+.midnav {
+	top: 0;
+	position: sticky;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+	height: 100%;
+}
+
+.midnav-item {
+	width: 18%;
+	z-index: 4;
+}
+
+
+.about {
+	margin-top: 90px;
+}
+
+#aboutsection {
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.hex{
+	margin-top: 30px;
+}
+
+.card,
+.card-body,
+.card-img-top,
+.card-text {
+	border: none;
+}
+
+.aboutlogo {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 1px transparent;
+}
+
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  margin: 86.60px 0;
+  background-image: url(../images/me12.jpg);
+  background-size: auto 346.4102px;
+  background-position: center;
+
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 43.93px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 300.0000px;
+  height: 173.20508075688775px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -106.0660px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -106.0660px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 300.0000px;
+  height: 173.2051px;
+  background: inherit;
+}
+
+.skillset {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.progress {
+	background-color: #5c6a77;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.progress-bar {
+	background-color: #1c7a19;
+}
+
+.skillicon {
+	height: 60px;
+	width: 60px;
+	background-color: none;
+}
+
+.skill1 {
+	width: 90%;
+}
+.skill2 {
+	width: 85%;
+}
+.skill3 {
+	width: 80%;
+}
+.skill4 {
+	width: 75%;
+}
+
+.myprofile {
+	text-align: center;
+}
+
+.indent {
+	text-indent: 5px;
+}
+
+hr {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.projbase {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.card-proj{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.contact-us {
+	background-color: gray;
+	height: 100%;
+}
+
+.sociallogos {
+	height: 40px;
+	width: 40px;
+}
+
+.socials {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.fpara {
+	line-height: .5;
+	
+}
+
+/*desktop view*/
+
+
+
+/*tablet view rules*/
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+}
+
+
+/*mobile version*/
+@media only screen and (max-width: 400px) {
+	.navbar-brand {
+		display: none;
+	}
+	.nav-item {
+		text-align: left;
+	}
+	.midnav {
+		display: none;
+	}
+	.jumbotron {
+		height: 100%;
+	}
+}
+
+
