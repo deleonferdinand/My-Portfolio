@@ -292,16 +292,16 @@ color: white;
 }
 
 .skill1 {
-	width: 90%;
-}
-.skill2 {
 	width: 85%;
 }
-.skill3 {
+.skill2 {
 	width: 80%;
 }
+.skill3 {
+	width: 65%;
+}
 .skill4 {
-	width: 75%;
+	width: 70%;
 }
 
 .myprofile {
